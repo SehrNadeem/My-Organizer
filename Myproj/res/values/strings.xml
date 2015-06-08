@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="app_name">My Organizer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_add_list">Add List Item</string>
+    <string name="description_str">Description</string>
+    <string name="date_str">Date/Time</string>
+    <string name="date_str1">Date</string>
+    <string name="time_str">Time</string>
+    <string name="priority_str">Priority</string>
+    <string name="picture_str">Add Picture</string>
+    <string name="location_str">Add location</string>
+    <string name="ListTitle_str">To Do List</string>
+    <string name="add_reminder_str">Add Reminder</string>
+    <string name="display_reminder_str">Display Reminders</string>
+    <string name="display_list_str">Display To-Do List</string>
+    <string name="map_str">Get Directions</string>
+    <string name="pic_btn_str">Upload picture</string>
+    <string name="title_activity_display_list">Display List Activity</string>
+    <string name="delete_btn_str">Clear All</string>
+    <string name="update_btn_str">Update</string>
+    <string name="set_btn_str">Get Previous values</string>
+    <string name="display_str">Display</string>
+    <string name="crash_str">Crash</string>
+    <string name="title_activity_update_list">UpdateList</string>
+    <string name="title_activity_crash">Crash Activity</string>
+    <string name="title_activity_json">Json Activity</string>
+    <string name="jsonTitle_str">Json Data</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    
+    <string name="app_id">845133692242764</string>
+
+</resources>
