@@ -26,6 +26,41 @@ public class UpdateList extends Activity {
 		
 		db_obj = new DatabaseHelper(this);
 		db_obj.open();
+		
+		Intent intent = getIntent();
+		long id_to = intent.getLongExtra("ID", 0);
+		
+		Cursor c = db_obj.getRow(id_to);
+		
+		if (c.moveToFirst()) {
+			long set_idDB = c.getLong(db_obj.COL_ID);
+			String desc = c.getString(db_obj.COL_Description);
+			String priority = c.getString(db_obj.COL_Priority);
+			String date = c.getString(db_obj.COL_Date);
+			String time = c.getString(db_obj.COL_Time);
+			String location = c.getString(db_obj.COL_Location);
+
+			//location += "!";
+			
+			EditText _desc = (EditText) findViewById(R.id.edit_desc);
+			_desc.setText(desc);
+			
+			EditText _priority = (EditText) findViewById(R.id.edit_pri);
+			_priority.setText(priority);
+			
+			EditText _date = (EditText) findViewById(R.id.edit_date);
+			_date.setText(date);
+			
+			EditText _time = (EditText) findViewById(R.id.edit_time);
+			_time.setText(time);
+			
+			EditText _location = (EditText) findViewById(R.id.edit_location);
+			_location.setText(location);
+			
+			//db_obj.updateRow(set_idDB, desc, priority, date,time,location);
+		
+		}
+		c.close();
 	}
 
 	@Override

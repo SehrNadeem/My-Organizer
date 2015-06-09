@@ -33,6 +33,34 @@ public class DisplayListActivity extends Activity {
 		
 		db_obj = new DatabaseHelper(this);
 		db_obj.open();
+		
+		 Cursor c = db_obj.getAllRows();
+			
+		//startManagingCursor(c);
+		
+		String[] DB_columns = new String[] {DatabaseHelper.Description,DatabaseHelper.Priority,DatabaseHelper.Date,DatabaseHelper.Time,DatabaseHelper.Location};
+		int[] LV_id = new int[] {R.id.textView_desc,R.id.textView_priority,R.id.textView_date,R.id.textView_time,R.id.textView_location};
+		
+		SimpleCursorAdapter adapter = new SimpleCursorAdapter(getBaseContext(),
+				R.layout.display_list_xml,
+				c ,DB_columns,LV_id,0);
+		
+		ListView LV = (ListView)findViewById(R.id.listViewDisplayList);
+		LV.setAdapter(adapter);
+		
+		registerListClickCallback();
+		
+		swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
+
+		swipeContainer.setOnRefreshListener(new OnRefreshListener() {
+           @Override
+           public void onRefresh() {
+               populate_ListView();
+				swipeContainer.setRefreshing(false);
+
+           } 
+        });
+
 	}
 	
 	protected void onDestroy()

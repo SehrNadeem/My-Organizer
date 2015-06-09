@@ -83,5 +83,8 @@ public class DisplayAddListActivity extends Activity {
 		
 		long id = db_obj.insertRow(desc_str, priority_str, date_str, time_str, location_str);
 		
+		Intent intent = new Intent(this, DisplayListActivity.class);
+    	startActivity(intent);
+		
 	}
 }
