@@ -5,9 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-
 import android.support.v4.widget.SwipeRefreshLayout;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -18,6 +16,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
+
+//import com.example.myorganizer.JsonActivity;
+//import com.example.myorganizer.DisplayAddListActivity;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.splunk.mint.Mint;
@@ -127,5 +128,14 @@ public class MainActivity extends Activity implements SwipeRefreshLayout.OnRefre
 		srl.setRefreshing(false);
 		
 	}
-    
+	public void add_list_start_activity(View view)
+    {
+    	Intent intent = new Intent(this, DisplayAddListActivity.class);
+    	startActivity(intent);
+    }
+	public void parseJson(View view)
+    {
+    	Intent I = new Intent(this,JsonActivity.class);
+    	startActivity(I);
+    }
 }

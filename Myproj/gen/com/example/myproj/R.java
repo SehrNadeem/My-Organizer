@@ -488,43 +488,86 @@ containing a value of this type.
         public static final int zoom_loading=0x7f020027;
     }
     public static final class id {
-        public static final int action_settings=0x7f070025;
+        public static final int RelativeLayout1=0x7f07004a;
+        public static final int Table_Json=0x7f07002f;
+        public static final int action_settings=0x7f070050;
         public static final int adView=0x7f07001a;
         public static final int adjust_height=0x7f070001;
         public static final int adjust_width=0x7f070002;
         public static final int book_now=0x7f070012;
-        public static final int button1=0x7f07001e;
-        public static final int button2=0x7f07001f;
-        public static final int button3=0x7f070020;
+        public static final int btn_Display_List=0x7f070028;
+        public static final int btn_add_list_item=0x7f070027;
+        public static final int btn_add_pic=0x7f07001d;
+        public static final int btn_deleteList=0x7f07002a;
+        public static final int btn_get_old_values=0x7f070049;
+        public static final int btn_json=0x7f070039;
+        public static final int btn_map=0x7f07001c;
+        public static final int btn_test=0x7f07002c;
+        public static final int btn_update=0x7f070048;
+        public static final int button1=0x7f070036;
+        public static final int button2=0x7f070038;
+        public static final int button3=0x7f07003a;
         public static final int buyButton=0x7f07000e;
         public static final int buy_now=0x7f070013;
         public static final int buy_with_google=0x7f070014;
         public static final int cast_notification_id=0x7f070000;
         public static final int classic=0x7f070016;
         public static final int donate_with_google=0x7f070015;
+        public static final int editText_date=0x7f070025;
+        public static final int editText_description=0x7f070023;
+        public static final int editText_location=0x7f07001e;
+        public static final int editText_time=0x7f070026;
+        public static final int edit_date=0x7f070042;
+        public static final int edit_desc=0x7f07003f;
+        public static final int edit_location=0x7f070043;
+        public static final int edit_pri=0x7f070040;
+        public static final int edit_time=0x7f070041;
+        public static final int edittext_priority=0x7f070024;
         public static final int grayscale=0x7f070017;
         public static final int holo_dark=0x7f070008;
         public static final int holo_light=0x7f070009;
         public static final int hybrid=0x7f070004;
-        public static final int imageView1=0x7f070021;
-        public static final int listView1=0x7f07001c;
+        public static final int imageView1=0x7f07003b;
+        public static final int listViewDisplayList=0x7f07002b;
         public static final int match_parent=0x7f070010;
         public static final int monochrome=0x7f070018;
         public static final int none=0x7f070003;
         public static final int normal=0x7f070005;
         public static final int production=0x7f07000a;
-        public static final int pull_refresh=0x7f07001b;
         public static final int sandbox=0x7f07000b;
         public static final int satellite=0x7f070006;
         public static final int selectionDetails=0x7f07000f;
         public static final int slide=0x7f070019;
         public static final int strict_sandbox=0x7f07000c;
+        public static final int swipeContainer=0x7f070029;
+        public static final int tableCol1=0x7f070031;
+        public static final int tableCol2=0x7f070032;
+        public static final int tableCol3=0x7f070034;
+        public static final int tableCol4=0x7f070035;
+        public static final int tableRow1=0x7f070030;
+        public static final int tableRow2=0x7f070033;
         public static final int terrain=0x7f070007;
         public static final int test=0x7f07000d;
-        public static final int textView1=0x7f07001d;
-        public static final int translatabletext=0x7f070022;
-        public static final int translateBtn=0x7f070024;
-        public static final int translateText=0x7f070023;
+        public static final int textView1=0x7f070037;
+        public static final int textView2=0x7f070045;
+        public static final int textView3=0x7f070044;
+        public static final int textView4=0x7f070046;
+        public static final int textView5=0x7f070047;
+        public static final int textView_date=0x7f07004d;
+        public static final int textView_desc=0x7f07004b;
+        public static final int textView_location=0x7f07004e;
+        public static final int textView_priority=0x7f07004c;
+        public static final int textView_tile=0x7f07002e;
+        public static final int textView_time=0x7f07004f;
+        public static final int text_dateTime=0x7f070020;
+        public static final int text_description=0x7f070022;
+        public static final int text_display_test=0x7f07002d;
+        public static final int text_listTitle=0x7f07001b;
+        public static final int text_location=0x7f07001f;
+        public static final int text_priority=0x7f070021;
+        public static final int translatabletext=0x7f07003c;
+        public static final int translateBtn=0x7f07003e;
+        public static final int translateText=0x7f07003d;
         public static final int wrap_content=0x7f070011;
     }
     public static final class integer {
@@ -532,20 +575,33 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_ad=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_splashscreen=0x7f030002;
-        public static final int activity_translate=0x7f030003;
+        public static final int activity_display_add_list=0x7f030001;
+        public static final int activity_display_list=0x7f030002;
+        public static final int activity_json=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_splashscreen=0x7f030005;
+        public static final int activity_translate=0x7f030006;
+        public static final int activity_update_list=0x7f030007;
+        public static final int display_list_xml=0x7f030008;
     }
     public static final class menu {
-        public static final int main=0x7f0b0000;
-        public static final int splashscreen=0x7f0b0001;
+        public static final int display_add_list=0x7f0b0000;
+        public static final int display_list=0x7f0b0001;
+        public static final int json=0x7f0b0002;
+        public static final int main=0x7f0b0003;
+        public static final int splashscreen=0x7f0b0004;
+        public static final int update_list=0x7f0b0005;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f040000;
     }
     public static final class string {
+        public static final int ListTitle_str=0x7f06003c;
         public static final int accept=0x7f060002;
         public static final int action_settings=0x7f06002d;
+        public static final int add_reminder_str=0x7f06003d;
+        public static final int add_str=0x7f06004d;
+        public static final int app_id=0x7f06004f;
         public static final int app_name=0x7f06002c;
         /**  Brand name for Facebook [DO NOT TRANSLATE] 
          */
@@ -555,6 +611,7 @@ containing a value of this type.
         public static final int auth_google_play_services_client_google_display_name=0x7f060006;
         public static final int banner_ad_unit_id=0x7f060032;
         public static final int buttonkanaam=0x7f060030;
+        public static final int camera_str=0x7f06004e;
         /**  Message of the notification to indicate an active cast display connection.  [CHAR LIMIT=80] NOTE: Same text as msgid="794424023757290105" 
          */
         public static final int cast_notification_connected_message=0x7f060009;
@@ -676,15 +733,38 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060026;
+        public static final int crash_str=0x7f060047;
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
+        public static final int date_str=0x7f060036;
+        public static final int date_str1=0x7f060037;
         public static final int decline=0x7f060003;
+        public static final int delete_btn_str=0x7f060043;
+        public static final int description_str=0x7f060035;
+        public static final int display_list_str=0x7f06003f;
+        public static final int display_reminder_str=0x7f06003e;
+        public static final int display_str=0x7f060046;
         public static final int hello_world=0x7f06002e;
+        public static final int jsonTitle_str=0x7f06004b;
+        public static final int location_str=0x7f06003b;
+        public static final int map_str=0x7f060040;
+        public static final int pic_btn_str=0x7f060041;
+        public static final int picture_str=0x7f06003a;
+        public static final int priority_str=0x7f060039;
+        public static final int set_btn_str=0x7f060045;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
+        public static final int time_str=0x7f060038;
         public static final int title_activity_ad=0x7f060031;
+        public static final int title_activity_crash=0x7f060049;
+        public static final int title_activity_display_add_list=0x7f060034;
+        public static final int title_activity_display_list=0x7f060042;
+        public static final int title_activity_facebook=0x7f06004c;
+        public static final int title_activity_json=0x7f06004a;
         public static final int title_activity_new_ad=0x7f060033;
         public static final int title_activity_splashscreen=0x7f06002f;
+        public static final int title_activity_update_list=0x7f060048;
+        public static final int update_btn_str=0x7f060044;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */

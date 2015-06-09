@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="buttonkanaam">click me!</string>
+    <string name="title_activity_ad">AdActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_new_ad">NewAdActivity</string>
+    
+    <string name="app_name">Mon Agenda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_display_add_list">Ajouter Liste Item</string>
+    <string name="description_str">Description</string>
+    <string name="date_str">Date/Temps</string>
+    <string name="date_str1">Date</string>
+    <string name="time_str">Temps</string>
+    <string name="priority_str">Priorité</string>
+    <string name="picture_str">Ajouter une image</string>
+    <string name="location_str">Ajouter un emplacement</string>
+    <string name="ListTitle_str">Liste De Choses À Faire</string>
+    <string name="add_reminder_str">Ajouter Rappel</string>
+    <string name="display_reminder_str">Afficher les rappels</string>
+    <string name="display_list_str">Afficher To Do List</string>
+    <string name="map_str">Obtenir Des Directions</string>
+    <string name="pic_btn_str">Ajouter image</string>
+    <string name="title_activity_display_list">Liste daffichage activité</string>
+    <string name="delete_btn_str">Tout Effacer</string>
+    <string name="update_btn_str">Mettre à jour</string>
+    <string name="set_btn_str">Obtenez les valeurs précédentes</string>
+    <string name="display_str">Exposition</string>
+    <string name="crash_str">Fracas</string>
+    <string name="title_activity_update_list">Mise à jour de la liste</string>
+    <string name="title_activity_crash">Activité accident</string>
+    
+    <string name="add_str">Publicité</string>
+    <string name="camera_str">Caméra</string>
+    
+</resources>
