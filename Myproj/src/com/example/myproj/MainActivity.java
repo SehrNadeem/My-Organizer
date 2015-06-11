@@ -138,7 +138,6 @@ public class MainActivity extends Activity implements SwipeRefreshLayout.OnRefre
     	Intent I = new Intent(this,JsonActivity.class);
     	startActivity(I);
     }
-
     public void login_facebook(View view)
     {
     	Intent I = new Intent(this,FacebookActivity.class);

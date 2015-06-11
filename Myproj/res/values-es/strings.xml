@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi Organizador</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_display_add_list">Agregar a mi lista de artículos</string>
+    <string name="description_str">Descripción</string>
+    <string name="date_str">Fecha/Tiempo</string>
+    <string name="date_str1">Fecha</string>
+    <string name="time_str">Tiempo</string>
+    <string name="priority_str">Prioridad</string>
+    <string name="picture_str">Añadir foto</string>
+    <string name="location_str">Añadir lugar</string>
+    <string name="ListTitle_str">Lista De Quehaceres</string>
+    <string name="add_reminder_str">Añadir Recordatorio</string>
+    <string name="display_reminder_str">Mostrar avisos</string>
+    <string name="display_list_str">Visualizar lista de tareas pendientes </string>
+    <string name="map_str">Cómo llegar</string>
+    <string name="pic_btn_str">Subir imagen</string>
+    <string name="title_activity_display_list">Ver Lista de actividades</string>
+    <string name="delete_btn_str">Limpiar Todo</string>
+    <string name="update_btn_str">actualización</string>
+    <string name="set_btn_str">Obtener los valores anteriores</string>
+    <string name="display_str">visualización</string>
+    <string name="crash_str">choque</string>
+    <string name="title_activity_update_list">Actualizar lista</string>
+    <string name="title_activity_crash">Actividad Crash</string>
+    
+    <string name="title_activity_splashscreen">Splash screen</string>
+    <string name="buttonkanaam">click Me!</string>
+    <string name="title_activity_ad">Add Activity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_new_ad">New Add Activity</string>
+    
+    <string name="add_str">Anuncio</string>
+    <string name="camera_str">Cámara</string>
+    
+</resources>
