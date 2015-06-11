@@ -1,10 +1,12 @@
 package com.example.myproj;
 
+
 import org.brickred.socialauth.android.DialogListener;
 import org.brickred.socialauth.android.SocialAuthAdapter;
 import org.brickred.socialauth.android.SocialAuthError;
 import org.brickred.socialauth.android.SocialAuthListener;
 import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
+
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -17,6 +19,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class FacebookActivity extends Activity {
+
 	
 	private static SocialAuthAdapter adapter;
 	private static EditText edit;
@@ -83,6 +86,7 @@ public class FacebookActivity extends Activity {
 			}
 		}
 	}
+
 	public static SocialAuthAdapter getSocialAuthAdapter() {
 		return adapter;
 	}
@@ -110,6 +114,8 @@ public class FacebookActivity extends Activity {
 		}
 
 	}
+
+
 	private final class MessageListener implements SocialAuthListener<Integer> {
 	    @Override
 	    public void onExecute(String provider,Integer t) {
@@ -131,5 +137,5 @@ public class FacebookActivity extends Activity {
 	public boolean isEmpty(EditText etText) {
         return etText.getText().toString().trim().length() == 0;
     }
-	
+
 }
