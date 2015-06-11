@@ -7,6 +7,7 @@ package com.example.myproj;
 //import com.example.myorganizer.R;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class UpdateList extends Activity {
 	
@@ -153,6 +155,13 @@ public class UpdateList extends Activity {
 			location = _location.getText().toString();
 			
 			db_obj.updateRow(set_idDB, desc, priority, date,time,location);
+			
+			Context context = getApplicationContext();
+			CharSequence text = "Reminder updated!";
+			int duration = Toast.LENGTH_SHORT;
+
+			Toast toast = Toast.makeText(context, text, duration);
+			toast.show();
 		
 		}
 	}

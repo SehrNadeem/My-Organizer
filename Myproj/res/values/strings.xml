@@ -8,7 +8,7 @@
     <string name="buttonkanaam">click me!</string>
     <string name="title_activity_ad">Add Activity</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="title_activity_new_ad">New Add Activity</string>
+    <string name="title_activity_new_ad">Advertisements</string>
     
     <string name="title_activity_display_add_list">Add List Item</string>
     <string name="description_str">Description</string>
