@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="18"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -81,10 +81,6 @@
         <activity
             android:name=".JsonActivity"
             android:label="@string/title_activity_json" >
-        </activity>
-        <activity
-            android:name=".FacebookActivity"
-            android:label="@string/title_activity_facebook" >
         </activity>
     </application>
 
